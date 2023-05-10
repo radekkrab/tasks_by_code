@@ -1,0 +1,11 @@
+1
+let a = 2
+lep p = a * 4
+
+2 
+let s =a ** 2
+
+3
+let a = 230
+let b = Math.trunc(a / 100)
+
