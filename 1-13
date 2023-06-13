@@ -1,0 +1,106 @@
+1
+let a = 2
+lep p = a * 4
+
+2 
+let s =a ** 2
+
+3
+let a = 230
+let b = Math.trunc(a / 100)
+
+4
+let a = 5
+console.log(a>0)
+
+5
+let a,b = 2,3
+console.log(a > 2 && b >= 3)
+
+6
+let n = 2
+let b = (n>0) ? ++n : n
+console.log(b)
+
+7
+let positive = 0, negative = 0
+let arr = [a, b, c]
+for (item of arr) {if(item>0){positive++}else if(item<0){negative++}else{}}
+console.log(`Положительных чисел: ${positive}, Отрицательных чисел: ${negative}`)
+
+8
+let day = 1
+switch(day) {
+    case 1:
+        console.log("Понедельник");
+        break;
+    case 2:
+        console.log("Вторник");
+        break;
+    case 3:
+        console.log("Среда");
+        break;
+    case 4:
+        console.log("Четверг");
+        break;
+    case 5:
+        console.log("Пятница");
+        break;
+    case 6:
+        console.log("Суббота");
+        break;
+    case 7:
+        console.log("Воскресенье");
+        break;
+    default:
+        console.log("Неизвестно");
+        break;
+}
+
+9
+let N = 5, K = 7
+let result = ''
+if(N>0){for(let i=0; i<N; i++) {result += K}} else {console.log("Ошибка")}
+console.log(result)
+
+10
+let A = 10, B = 2
+let i = 0
+if(A>=B){
+  while(i <= A-B){i += B}console.log(`Длина незанятой части отрезка A: ${A-i}`)
+  }else{
+  console.log("Ошибка")
+  }
+  
+11
+ let K = 1
+ switch(K) {
+    case 1:
+        console.log("Плохо");
+        break;
+    case 2:
+        console.log("Неудовлетворительно");
+        break;
+    case 3:
+        console.log("Удовлетворительно");
+        break;
+    case 4:
+        console.log("Хорошо");
+        break;
+    case 5:
+        console.log("Отлично");
+        break;
+    default:
+        console.log("Ошибка");
+        break;
+}
+
+12
+let A = 2, B = 8
+let N = 0
+if(A<B){for(A; A<=B; A++){N++; console.log(A)} console.log(`Всего чисел: ${N}`)}else{console.log("Ошибка")}
+
+13
+let d
+if(d>0){d+=1}else{d-=2}
+console.log(d)
