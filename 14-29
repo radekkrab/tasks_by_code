@@ -1,0 +1,30 @@
+14
+let A = 4
+console.log(A%2!=0)
+
+15
+let K = 5
+if(K>0){
+  console.log(Math.trunc(K/1000))
+  }else{
+    console.log("Число должно быть больше чем 0")
+    }
+    
+16
+let A = 2, B = 3
+let S = A * B
+let P = 2 * (A + B)
+console.log(`S = ${S}\nP = ${P}`)
+
+17
+let b = 44363
+console.log(Math.trunc(b/1024))
+
+18
+let A = 6
+console.log(A%2==0)
+
+19
+let numberArray = [1, 2, 3, 4, 5]
+let sumArray = numberArray.reduce((sum, current) => sum + current, 0);
+console.log(sumArray) 
