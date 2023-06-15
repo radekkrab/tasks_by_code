@@ -28,3 +28,98 @@ console.log(A%2==0)
 let numberArray = [1, 2, 3, 4, 5]
 let sumArray = numberArray.reduce((sum, current) => sum + current, 0);
 console.log(sumArray) 
+
+20
+let numberArray = [2, 7, 8, 9, 6]
+function PowerA3(arr) {
+  arr.map(item => console.log(`Число ${item} в кубе = ${item**3}`))
+  }
+PowerA3(numberArray)
+
+21
+let r = 3
+function CirleS(r) {console.log(S = 3.14 * r ** 2)}
+CirleS(r)
+
+22
+let a = 13
+console.log(`Объем куба V = ${a**3}, Площадь его поверхности S = ${6*a**2}`)
+
+23
+let A=40, B=20
+console.log(`Количество отрезков B, размещенных на отрезке A = ${Math.trunc(A/B)}`)
+
+24
+let A=2, B=-3
+if(A>=B || B < -2) {
+    console.log(`Неравенства A ≥ 0 или B < –2 справедливы, при A=${A} B=${B}`)
+    }else{
+       console.log(`Неравенства A ≥ 0 или B < –2 ложны, при A=${A} B=${B}`)
+        }
+        
+25
+let A=2
+let B=4
+let C=7
+console.log(A < B && B < C)
+
+26
+let data = -5
+console.log(data > 0 ? ++data : data < 0 ? data-2 : data == 0 ? data = 10 : false)
+
+27
+let month = 7
+switch(month) {
+    case 1:
+    case 2:
+    case 12:
+        console.log("Зима");
+        break;
+    case 3:
+    case 4:
+    case 5:
+        console.log("Весна");
+        break;
+    case 6:
+    case 7:
+    case 8:
+        console.log("Лето");
+        break;
+    case 9:
+    case 10:
+    case 11:
+        console.log("Осень");
+        break;
+    default:
+        console.log("Ошибка");
+    }
+    
+28
+   let A = 5, B = 1
+   switch(B) {
+    case 1:
+        console.log(A * 1);
+        break;
+    case 2:
+        console.log(A * 0.00001*0.1);
+        break;
+    case 3:
+        console.log(A * 0.001);
+        break;
+    case 4:
+        console.log(A * 1000);
+        break;
+    case 5:
+        console.log(A * 100);
+        break;
+    default:
+        console.log("Ошибка")
+       }
+   
+29
+let cost = 50
+for(let i = 1; i < 4; i++) {
+    console.log(cost * i);
+}
+   
+   
