@@ -67,7 +67,7 @@ console.log(A < B && B < C)
 let data = -5
 console.log(data > 0 ? ++data : data < 0 ? data-2 : data == 0 ? data = 10 : false)
 
-27
+33
 let month = 7
 switch(month) {
     case 1:
@@ -94,7 +94,7 @@ switch(month) {
         console.log("Ошибка");
     }
     
-28
+34
    let A = 5, B = 1
    switch(B) {
     case 1:
